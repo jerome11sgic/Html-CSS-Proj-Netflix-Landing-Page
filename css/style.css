@@ -1,5 +1,6 @@
 :root{
     --primary-color:#e50914;
+    --dark-color:#141414;
 }
 
 /* reset every thing */
@@ -35,6 +36,14 @@ p{
 
 img{
     width:100%;
+}
+
+/* Container */
+.container{
+    max-width: 70%;
+    margin:auto;
+    overflow: hidden;
+    padding: 0 2rem;
 }
 
 /* Buttons */
@@ -140,3 +149,5 @@ img{
     line-height: 1.25;
     margin: 0 0 2rem;
 }
+
+
